@@ -1,16 +1,17 @@
-# 数据与隐私说明
+# Privacy
 
-Workloom 是本地优先应用：
+Workloom is designed as a local-first application.
 
-- Todo、日报、反思、设置等数据默认存储在本机 SQLite 数据库中。
-- 云盘同步通过用户选择的 OneDrive、WPS、百度网盘等本地同步文件夹完成。
-- 应用不要求提供 GitHub Token、云盘账号密码或远程 API 密钥。
+- Tasks, journals, reflections, and settings are stored in a local SQLite database.
+- Personal cloud sync works through a OneDrive, WPS, Baidu Netdisk, or similar local sync folder
+  selected by the user.
+- Workloom does not require cloud account passwords, remote API keys, or a hosted Workloom account.
 
-发布或提交文件前，请确认没有包含：
+Before publishing or committing files, make sure they do not include:
 
-- `*.db`、`*.db-wal`、`*.db-shm`
-- `backups/` 目录
-- `.env` 或令牌文件
-- 导出的日报、周报、月报
-- 包含个人路径或个人信息的配置文件
+- `*.db`, `*.db-wal`, or `*.db-shm`
+- The `backups/` directory
+- `.env` or token files
+- Exported daily, weekly, or monthly reports
+- Configuration files containing personal paths or personal information
 
