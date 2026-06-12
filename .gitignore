@@ -1,0 +1,11 @@
+*.db
+*.db-wal
+*.db-shm
+backups/
+exports/
+.env
+.env.*
+*.log
+Thumbs.db
+.DS_Store
+
