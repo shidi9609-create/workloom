@@ -1,10 +1,11 @@
-# 安全说明
+# Security
 
-Workloom 当前发布的 Windows EXE 尚未进行代码签名。
+The current Workloom Windows executable is not code-signed.
 
-下载后建议核对 SHA-256：
+Download Workloom only from this repository's Releases page and verify the SHA-256 checksum:
 
 `DA92DC46F562252C3D56B2EA64D7BE89491C32C9F64C2A6CE639C1261EA8D013`
 
-如发现安全问题，请通过 GitHub Issues 提交不包含个人数据的复现说明。
+To report a security issue, open a GitHub Issue containing a reproduction description without
+personal data.
 
