@@ -1,12 +1,12 @@
-# 更新记录
+# Changelog
 
 ## v0.3.3
 
-- 应用名称更新为 Workloom
-- 优化今日、本周、本月与看板布局
-- 月历增加今日星形提醒与右键颜色标记
-- 设置页保留标签编辑、颜色选择、备份与恢复、云盘同步四个板块
-- 设置页整体字号与控件尺寸优化
-- 新增灰色、蓝色、玫瑰色及绿色界面主题
-- 优化悬浮球透明效果
+- Renamed the application to Workloom
+- Refined Today, Week, Month, Dashboard, and Settings layouts
+- Added editable professional labels for HR, e-commerce, development, sales, and other workflows
+- Added a calendar Today reminder and right-click color markers
+- Added green, gray, blue, and rose interface themes
+- Improved tag editing, backup and restore, and personal cloud sync sections
+- Improved compact layouts and floating-window transparency
 
